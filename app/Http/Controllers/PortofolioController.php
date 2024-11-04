@@ -22,7 +22,7 @@ class PortofolioController extends Controller
     public function indexLanding()
     {
         $portofolio = portofolio::All();
-        return view('/', [
+        return view('index', [
             'portofolio' => $portofolio
         ]);
     }

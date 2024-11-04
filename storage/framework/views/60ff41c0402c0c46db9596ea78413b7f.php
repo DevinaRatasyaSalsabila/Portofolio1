@@ -48,9 +48,10 @@
                         
                         <div class="st-main-header-left">
                             <a class='st-site-branding'>
-                                <a href="<?php echo e(url('index')); ?>">
-                                    <h3  style="color:rgb(130, 141, 209)"">
-                                        <i class="bi bi-arrow-bar-left"></i>     Kembali
+                                <a href="<?php echo e(url('/')); ?>">
+                                    <h3  style="color:rgb(130, 141, 209)">
+                                        <i class="bi bi-arrow-bar-left"></i>     
+                                        Kembali
                                     </h3>
                                 </a>
                             </a>
